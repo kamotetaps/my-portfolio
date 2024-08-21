@@ -1,0 +1,209 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+header {
+    background-color: #007bff; /* Main color blue */
+    color: #fff;
+    padding: 1rem;
+    text-align: center;
+}
+
+header h1 {
+    margin: 0;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 1rem;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+}
+
+.content-section {
+    padding: 2rem;
+    margin: 1rem auto;
+    max-width: 800px;
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+    text-align: center;
+}
+
+.bio-section {
+    text-align: center;
+    margin: 2rem 0;
+}
+
+.bio-section h3 {
+    margin: 0;
+}
+
+.portfolio-thumbnails {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 1rem;
+}
+
+.portfolio-thumbnail {
+    width: calc(33.333% - 2rem);
+    margin: 1rem;
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    overflow: hidden;
+}
+
+.portfolio-thumbnail img {
+    width: 100%;
+    height: auto;
+}
+
+.badges {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 0.5rem;
+    margin-bottom: 1rem;
+}
+
+.badge {
+    background-color: #007bff; /* Main color blue */
+    color: #fff;
+    padding: 0.5rem 1rem;
+    border-radius: 5px;
+    font-size: 0.9rem;
+}
+
+.interactive-list {
+    list-style: none;
+    padding: 0;
+    text-align: center;
+}
+
+.interactive-list li {
+    display: inline-block;
+    margin: 0.5rem 1rem;
+    font-size: 1.1rem;
+}
+
+.skill-icon {
+    margin-right: 0.5rem;
+}
+
+#career-highlights,
+#contacts {
+    text-align: center;
+}
+
+#career-highlights p,
+#contacts p {
+    font-size: 1rem;
+    line-height: 1.5;
+}
+
+#contacts a {
+    color: #007bff; /* Main color blue */
+    text-decoration: none;
+}
+
+#contacts a:hover {
+    text-decoration: underline;
+}
+
+.fas, .fab {
+    margin-right: 0.5rem;
+}
+
+
+/* Style for the About Me section */
+.bio-section {
+    text-align: center;
+    margin: 2rem auto;
+    padding: 2rem;
+    max-width: 800px;
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.bio-section img {
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    margin-bottom: 1rem;
+}
+
+.bio-section h3 {
+    margin: 1rem 0 0.5rem;
+}
+
+.bio-section p {
+    margin: 0;
+    font-size: 1.1rem;
+}
+
+
+#contacts {
+    padding: 2rem;
+}
+
+.contact-info {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr); /* Creates two equal columns */
+    gap: 1rem; /* Adjusts the spacing between items */
+}
+
+.contact-card {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    padding: 1rem;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    background-color: #fff; /* Optional: add background color */
+}
+
+.contact-card svg {
+    width: 24px;
+    height: 24px;
+    fill: #333; /* Change the color as needed */
+}
+
+.contact-card h3 {
+    margin: 0;
+}
+
+.contact-card p a {
+    text-decoration: none;
+    color: #0073b1; /* LinkedIn color */
+}
+
+.contact-card p a:hover {
+    text-decoration: underline;
+}
+.portfolio-thumbnail a{
+	text-decoration:none;
+}
+ 
