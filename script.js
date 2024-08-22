@@ -1,4 +1,3 @@
-// script.js
 document.addEventListener('DOMContentLoaded', function () {
     const navLinks = document.querySelectorAll('nav a[href^="#"]');
 
@@ -9,6 +8,8 @@ document.addEventListener('DOMContentLoaded', function () {
             const targetElement = document.getElementById(targetId);
             if (targetElement) {
                 targetElement.scrollIntoView({ behavior: 'smooth' });
+                targetElement.classList.add('scroll-bounce');
+                setTimeout(() => targetElement.classList.remove('scroll-bounce'), 1000);
             }
         });
     });
