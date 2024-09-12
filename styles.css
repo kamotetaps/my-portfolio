@@ -273,3 +273,94 @@ h3 {
     color: #54b9ff; /* Light blue hover effect */
     text-decoration: underline;
 }
+
+
+
+
+   /* General Styles */
+   .content-section {
+    padding: 40px 20px;
+    background-color: #f8f9fa;
+    font-family: 'Arial', sans-serif;
+}
+
+.portfolio-header h2 {
+    text-align: center;
+    font-size: 2.5em;
+    margin-bottom: 30px;
+    color: #333;
+    font-weight: bold;
+}
+
+.seminar-cards {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.seminar-card {
+    background-color: #fff;
+    border-radius: 12px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    width: 300px;
+    padding: 20px;
+    transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+    text-align: center;
+}
+
+.seminar-card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 6px 20px rgba(0, 0, 0, 0.2);
+}
+
+.seminar-thumbnail {
+    width: 80px;
+    height: 80px;
+    object-fit: contain;
+    margin-bottom: 15px;
+}
+
+.seminar-content h3 {
+    font-size: 1.8em;
+    color: #007BFF;
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+
+.interactive-list {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+.interactive-list li {
+    margin: 15px 0;
+    font-size: 1em;
+    color: #555;
+    line-height: 1.5em;
+}
+
+.interactive-list li strong {
+    font-weight: bold;
+    color: #333;
+}
+
+.interactive-list li a {
+    color: #007BFF;
+    text-decoration: none;
+    transition: color 0.3s ease-in-out;
+}
+
+.interactive-list li a:hover {
+    color: #0056b3;
+    text-decoration: underline;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .seminar-cards {
+        flex-direction: column;
+        align-items: center;
+    }
+}
